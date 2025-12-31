@@ -1,0 +1,31 @@
+# ---- Altium core junk / cache ----
+**/__Previews/
+**/History/
+
+# Default Altium output / log directories
+**/Project Outputs*/
+**/ProjectOutputs*/
+**/Project Logs*/
+**/Assembly Exports*/
+
+# Generated previews and HTML exports
+**.SchDocPreview
+**.PcbDocPreview
+**.PrjPcbStructure
+**.PcbDoc.htm
+**.SchDoc.htm
+
+# Reports / intermediate export junk
+IDFReport*
+*.log
+*.tmp
+*.bak
+*.zip
+
+# Altium "dontinclude" marker
+*.dontinclude
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+**/*.$$$
